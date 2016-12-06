@@ -193,6 +193,9 @@ table.UITableColumn, table.UITableColumn>tbody, table.UITableColumn>tbody>tr, ta
 .uiCompanyNavigations .navItemSelected {
     background: rgba(37, 110, 158, 0.1) !important;
 }
+.uiCompanyNavigationPortlet .uiCompanyNavigations {
+    padding-top: 6px !important;
+}
 .uiCompanyNavigationPortlet .uiCompanyNavigations .navItem {
     padding: 0 20px !important;
     border-top: 0 !important;
