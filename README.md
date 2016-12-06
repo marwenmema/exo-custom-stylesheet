@@ -16,3 +16,5 @@ HOW TO IMPLEMENT:
 3) Refresh your browser cache and page (CTRL+F5 on Windows, Command+Shift+R on Mac).
 
 NOTE: A work in progress. Not optimized yet for all browsers. Uses the !important declaration everywhere (not a good practice) just out of laziness/to be certain it overrides everything. Therefore useful for demo purposes but currently not recommended for production.
+
+![Alt text](https://github.com/marwenmema/exo-custom-stylesheet/blob/master/variables_screenshot.png "Variables")
