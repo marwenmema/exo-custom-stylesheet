@@ -19,4 +19,4 @@ HOW TO IMPLEMENT:
 
 NOTE: A work in progress. Not optimized yet for all browsers. Uses the !important declaration everywhere (not a good practice) just out of laziness/to be certain it overrides everything. Therefore useful for demo purposes but not yet recommended for production. 
 
-![Alt text](https://github.com/marwenmema/exo-custom-stylesheet/blob/master/variables_screenshot.png "Variables")
+![Alt text](https://github.com/marwenmema/exo-custom-stylesheet/blob/master/variables.png "Variables")
