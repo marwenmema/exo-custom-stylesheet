@@ -28,7 +28,11 @@ a:hover [class^="uiIconPLF"], [class^="uiIconPLF"]:hover, .uiIconPLFBlue {
     border-color: #e5e5e5 !important;
 }
 .uiTabNormal .nav-tabs>li>a {
+    background: #f5f5f5;
     border-color: #e5e5e5 !important;
+}
+.uiTabNormal .nav-tabs>.active>a, .uiTabNormal .nav-tabs>.active>a:hover {
+    background-color: #fff;
 }
 .uiTabNormal .nav-tabs>li:first-child>a {
     border-top-color: #e5e5e5 !important;
@@ -376,24 +380,38 @@ display: none !important;
 /* _____________________Buttons_____________________ */
 .btn {
     box-shadow: none !important;
-    background: #f6f8f9;
-    border-color: #e2e2e2;
-    border-bottom-color: #e2e2e2;
+    background: #fff;
+    border-color: #BUTTON_COLOR;
+    color: #BUTTON_COLOR;
+}
+.btn:hover, .btn:focus {
+    background: #BUTTON_COLOR;
+    border-color: #BUTTON_COLOR;
+    color: #fff;
 }
 .btn-primary {
     background: #BUTTON_COLOR !important;
     border-color: #BUTTON_COLOR !important;
+    color: #fff;
+    font-weight: normal;
+    box-shadow: none;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
     background: #BUTTON_COLOR_HOVER !important;
+    border-color: #BUTTON_COLOR_HOVER !important;
+    box-shadow: none !important;
 }
 .uiAction .btn:first-child {
     background: #BUTTON_COLOR !important;
     border-color: #BUTTON_COLOR !important;
-    box-shadow: none !important;
+    color: #fff;
+    font-weight: normal;
+    box-shadow: none;
 }
 .uiAction .btn:first-child:hover {
     background: #BUTTON_COLOR_HOVER !important;
+    border-color: #BUTTON_COLOR_HOVER !important;
+    box-shadow: none !important;
 }
 label.switchBtnLabelOn {
     background: #BUTTON_COLOR !important;
@@ -862,10 +880,33 @@ div#UIPendingSpacesPortlet {
     padding: 24px 28px 0 28px !important;
 }
 .uiSocApplication .itemContainer .spaceBox {
+    background: #fff;
     border-color: #e5e5e5 !important;
+    box-shadow: none;
+    padding: 14px;
+}
+.uiSocApplication .itemContainer .spaceBox .avatarLarge img {
+    border: 1px solid #e5e5e5;
+}
+.uiSocApplication .itemContainer .spaceBox:hover {
+    box-shadow: 0 0 14px rgba(0,0,0,0.08);
 }
 .uiFilterList .letterList li a {
-    border-color: #e5e5e5 !important;
+    background: #fff !important;
+    border-color: #BASE_COLOR !important;
+    color: #BASE_COLOR !important;
+}
+.uiFilterList .letterList li a:hover {
+    box-shadow: none !important;
+    background: #BASE_COLOR !important;
+    border-color: #BASE_COLOR !important;
+    color: #fff !important;
+}
+.uiFilterList .letterList li a.selected {
+    box-shadow: none !important;
+    background: #BASE_COLOR !important;
+    border-color: #ed1a3d !important;
+    color: #fff !important;
 }
 
 
@@ -1077,7 +1118,7 @@ div#UIGroupsNavigationPortlet {
 	font-size: 14px;
 	font-weight: 15px;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #009cdb;
+	color: #BUTTON_COLOR;
 	display: inline-block;
 	-webkit-transition: all 0.35s ease;
 	-moz-transition: all 0.35s ease;
