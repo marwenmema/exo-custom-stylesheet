@@ -64,7 +64,7 @@ position: fixed !important;
     color: #626262 !important;
 }
 .UIToolbarContainerLight .uiDropdownWithIcon>a:hover, .UIToolbarContainerLight .uiDropdownWithIcon .uiDropdownWithIcon.open>a, .UIToolbarContainerLight .uiDropdownWithIcon>a:active, .UIToolbarContainerLight .uiDropdownWithIcon.open>a:active {
-    background: rgba(242, 242, 242, 0.27)!important;
+    background: #fff !important;
     height: 39px !important;
     border-bottom: 4px solid #BASE_COLOR !important;
 }
@@ -92,7 +92,16 @@ position: fixed !important;
     border-bottom: 4px solid #BASE_COLOR !important;
 }
 .UIToolbarContainer a:hover [class^="uiIconPLF24x24"], .UIToolbarContainer [class^="uiIconPLF24x24"]:hover {
-    color: #626262 !important;
+    color: #fff;
+    color: #BASE_COLOR !important;
+}
+.UIToolbarContainerLight .uiDropdownWithIcon>a:hover, .UIToolbarContainerLight .uiDropdownWithIcon.open>a {
+    color: #BASE_COLOR !important;
+    height: 39px !important;
+    border-bottom: 4px solid #BASE_COLOR !important;
+}
+.UIToolbarContainerLight .uiDropdownWithIcon>a:hover, .UIToolbarContainerLight .uiDropdownWithIcon.open>a>i {
+    color: #BASE_COLOR !important;
 }
 .uiNotificationPopoverToolbarPortlet .displayItems>li:hover {
     background: #BASE_COLOR !important;
