@@ -978,3 +978,135 @@ div#UIGroupsNavigationPortlet {
 .uiBrandingPortlet>.uiAction.boxContent {
     padding-top: 68px !important;
 }
+
+
+
+/* ____________________BLOG (AGITAL TEMPLATE)____________________ */
+.blogListBox .uiContentBox {
+	margin: 0;
+	list-style: none;
+	display: block;
+    margin-top: 22px;
+}
+.blogListBox {
+    margin: 40px;
+    padding: 30px;
+}
+.blogListBox .uiContentBox > div {
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 49px;
+}
+.blogListBox .title {
+    font-size: 30px !important;
+}
+.blogListBox .badge {
+	padding: 0;
+	margin: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width: 51px;
+	height: 43px;
+	text-align: center;
+	padding-top: 5px;
+	text-shadow: none;
+    background-color: #BASE_COLOR;
+	font-weight: bold;
+    font-size: 16px;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	float: left;
+	margin-right: 16px;
+	box-shadow: none;
+}
+.blogListBox .badge {
+	margin-top: 0;
+}
+.blogListBox .badge p {
+    margin: 0;
+}
+.blogListBox .badge .numb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 47px;
+}
+.blogListBox .extra-wrap > h3 {
+    color: #565656;
+    margin: 0;
+}
+.blogListBox .extra-wrap p {
+	font-weight: bold;
+	font-size: 14px;
+	font-weight: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #8d8d8d;
+	float: left;
+	margin-bottom: 0;
+}
+.blogListBox  .extra-wrap h3 a {
+	color: #181818;
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+.blogListBox  .extra-wrap h3 a:hover {
+	color: #0fcabf;
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+.blogListBox .extra-wrap .clearfix a.pull-left {
+	font-weight: bold;
+	font-size: 14px;
+	font-weight: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #8d8d8d;
+	display: inline-block;
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+.blogListBox .extra-wrap .clearfix a.pull-right {
+	font-size: 14px;
+	font-weight: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #009cdb;
+	display: inline-block;
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+.blogListBox .extra-wrap .clearfix a:hover {
+	color: #181818;
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+.blogListBox > div .clearfix {
+	margin-bottom: 15px;
+}
+.blogListBox .img-polaroid {
+    margin-right: 24px!important;
+    padding: 0;
+    border: 0;
+    box-shadow: 0 1px 14px rgba(0,0,0,0.1);
+}
+.summary.margBot3 {
+    color: #434343;
+    margin-bottom: 12px;
+}
+.uiIcon16x16TemplateBlog:before, .uiIcon16x16Templateexo_dnblog:before, .uiIcon16x16exo_dnblog:before {
+    color: #BASE_COLOR;
+}
+.blogListBox>div .clearfix {
+    margin-bottom: 6px;
+}
