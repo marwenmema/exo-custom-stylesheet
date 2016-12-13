@@ -13,7 +13,7 @@ HOW TO IMPLEMENT:
 * #LINK_COLOR
 * #LINK_COLOR_HOVER
 
-![Alt text](https://github.com/marwenmema/exo-custom-stylesheet/blob/master/variables.png "Variables")
+![Alt text](https://github.com/marwenmema/exo-custom-stylesheet/blob/master/variables_legend_screenshot.png "Variables")
 
 2) In eXo Platform, go to "Administration" > "Portal" > "Branding" and switch to the "Light" toolbar mode.
 
