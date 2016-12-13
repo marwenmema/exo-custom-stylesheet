@@ -217,6 +217,9 @@ div#LeftNavigationPortlet {
     border-top: 0 !important;
     border-bottom: 0!important;
 }
+.uiCompanyNavigationPortlet .uiCompanyNavigations .navItem>a>div {
+    display: none !important;
+}
 .uiCompanyNavigationPortlet .uiCompanyNavigations .navItemSelected {
     background: #BASE_COLOR_EMPH !important;
     border-top: 0 !important;
@@ -230,6 +233,9 @@ div#LeftNavigationPortlet {
     top: 0 !important;
     background: #fff !important;
     border: none !important;
+}
+.uiCompanyNavigationPortlet .uiCompanyNavigations .navItemSelected>a>div {
+    display: none !important;
 }
 .uiCompanyNavigationPortlet .uiCompanyNavigations>li>a {
     width: 204px !important;
@@ -286,6 +292,9 @@ i.uiIconFile.uiIconExt-recent:before {
 }
 .uiSpaceNavigationPortlet .spaceNavigation .spaceItem:hover {
     background: #BASE_COLOR_EMPH !important;
+}
+.uiSpaceNavigationPortlet .spaceNavigation .spaceItem>a>div {
+    display: none !important;
 }
 .uiSpaceNavigationPortlet .spaceNavigation .spaceItemSelected {
     background: #fff !important;
