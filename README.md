@@ -5,11 +5,13 @@ COMPATIBILITY: eXo Platform 4.3.0 in "Light" toolbar mode, Google Chrome
 
 HOW TO IMPLEMENT:
 
-1) Copy the CSS code and paste it in your text editor. Use your editor's "replace" feaure to auto-replace the 4 variables with your custom colors. (See the screenshot below.)
-* BASE_COLOR
-* BASE_COLOR_EMPH
-* BUTTON_COLOR
-* BUTTON_COLOR_HOVER
+1) Copy the CSS code and paste it in your text editor. Use your editor's "replace" feaure to auto-replace the 6 variables with your custom colors. (See the screenshot below.)
+* #BASE_COLOR
+* #BASE_COLOR_EMPH
+* #BUTTON_COLOR
+* #BUTTON_COLOR_HOVER
+* #LINK_COLOR
+* #LINK_COLOR_HOVER
 
 ![Alt text](https://github.com/marwenmema/exo-custom-stylesheet/blob/master/variables.png "Variables")
 
