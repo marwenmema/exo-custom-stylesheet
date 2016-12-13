@@ -9,6 +9,12 @@
 
 
 /* _____________________Global / Uncategorized______________________ */
+.a {
+    color: #LINK_COLOR;
+}
+.UISiteBody a:hover {
+    color: #LINK_COLOR_HOVER;
+}
 a:hover [class^="uiIconPLF"], [class^="uiIconPLF"]:hover, .uiIconPLFBlue {
     color: #fff !important;
 }
@@ -45,17 +51,17 @@ a:hover [class^="uiIconPLF"], [class^="uiIconPLF"]:hover, .uiIconPLFBlue {
 
 /* _____________________Top Toolbar_____________________ */
 .UIToolbarContainer {
-z-index: 100 !important;
-position: fixed !important;
-width: 100% !important;
+    z-index: 100 !important;
+    position: fixed !important;
+    width: 100% !important;
 }
 .UIToolbarContainer #HomeLink {
     padding: 4px 10px 0 !important;
 }
 .UIToolbarContainer .NormalContainerBlock .ToolbarContainer {
-z-index: 100 !important;
-width: 100% !important;
-position: fixed !important;
+    z-index: 100 !important;
+    width: 100% !important;
+    position: fixed !important;
 }
 .UIToolbarContainerLight .NormalContainerBlock .ToolbarContainer {
     background-color: #fff !important;
@@ -90,13 +96,11 @@ position: fixed !important;
     color: #626262 !important;
 }
 .dropdown-toggle:active, .open .dropdown-toggle {
-    height: 39px !important;
     background: rgba(242, 242, 242, 0.27)!important;
     height: 39px!important;
     border-bottom: 4px solid #BASE_COLOR !important;
 }
 .UIToolbarContainer a:hover [class^="uiIconPLF24x24"], .UIToolbarContainer [class^="uiIconPLF24x24"]:hover {
-    color: #fff;
     color: #BASE_COLOR !important;
 }
 .UIToolbarContainerLight .uiDropdownWithIcon>a:hover, .UIToolbarContainerLight .uiDropdownWithIcon.open>a {
@@ -150,52 +154,51 @@ div#LeftNavigationPortlet {
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
-body .OfficeMiddleTDContainer+.OfficeRightTDContainer {
-    background: #f7f7f7!important;
-}
+    body .OfficeMiddleTDContainer+.OfficeRightTDContainer {
+        background: #f7f7f7!important;
+    }
 }
 @media (max-width: 1024px) {
-body .OfficeMiddleTDContainer {
-    background: #f7f7f7!important;
-}
+    body .OfficeMiddleTDContainer {
+        background: #f7f7f7!important;
+    }
 }
 @media (max-width: 768px) and (min-width: 481px) {
-.open-left-bar #UIToolbarContainer, .open-left-bar .RightBodyTDContainer {
-    left: 30%;
-}
-}
-@media (max-width: 767px) {
-.open-left-bar #UIToolbarContainer, .open-left-bar .RightBodyTDContainer {
-    left: 62%;
-}
+    .open-left-bar #UIToolbarContainer, .open-left-bar .RightBodyTDContainer {
+        left: 30%;
+    }
 }
 @media (max-width: 767px) {
-table.UITableColumn, table.UITableColumn>tbody, table.UITableColumn>tbody>tr, table.UITableColumn>tbody>tr td, .UIResponsiveTable66ColumnContainer table.UITableResponsiveColumn66>tbody>tr td:first-child, .UIResponsiveTable33ColumnContainer table.UITableResponsiveColumn33>tbody>tr td:last-child {
-    padding-right: 15px;
-}
-}
-@media (max-width: 767px) {
-.container, .UITableColumnContainer, #TopPanel>div, #UIPageBody #Details {
-    padding-left: 0px;
-}
+    .open-left-bar #UIToolbarContainer, .open-left-bar .RightBodyTDContainer {
+        left: 62%;
+    }
 }
 @media (max-width: 767px) {
-.container, .UITableColumnContainer, #TopPanel>div, #UIPageBody #Details {
-    padding-right: 7px;
-}
+    table.UITableColumn, table.UITableColumn>tbody, table.UITableColumn>tbody>tr, table.UITableColumn>tbody>tr td, .UIResponsiveTable66ColumnContainer table.UITableResponsiveColumn66>tbody>tr td:first-child, .UIResponsiveTable33ColumnContainer table.UITableResponsiveColumn33>tbody>tr td:last-child {
+        padding-right: 15px;
+    }
 }
 @media (max-width: 767px) {
-.container, .UITableColumnContainer, #TopPanel>div {
-    padding-right: 11px;
+    .container, .UITableColumnContainer, #TopPanel>div, #UIPageBody #Details {
+        padding-left: 0;
+    }
 }
+@media (max-width: 767px) {
+    .container, .UITableColumnContainer, #TopPanel>div, #UIPageBody #Details {
+        padding-right: 7px;
+    }
+}
+@media (max-width: 767px) {
+    .container, .UITableColumnContainer, #TopPanel>div {
+        padding-right: 11px;
+    }
 }
 
 
 
 /* _____________________Company Navigation_____________________ */
 .uiCompanyNavigationPortlet .title {
-    background-image: none!important;
-    background-color: #fff !important;
+    background: #BASE_COLOR none !important;
     color: #fff !important;
     font-size: 16px !important;
     border-bottom: none !important;
@@ -329,7 +332,7 @@ i.uiIconFile.uiIconExt-recent:before {
     border-left: 5.5px solid #fff !important;
 }
 .uiBreadcumbsNavigationPortlet .uiContainer .name {
-display: none !important;
+    display: none !important;
 }
 .uiBreadcumbsNavigationPortlet .uiContainer .changeAvatar {
     margin-top: 24px !important;
@@ -844,7 +847,6 @@ div#taskManagement {
     background: #fff !important;
 }
 .uiSpaceMenu .spaceMenuTab {
-    background-color: #F8F8F8 !important;
     padding-left: 31px !important;
     background: #fff !important;
     box-shadow: inset 0 -14px 37px -13px rgba(0,0,0,0.05)!important;
@@ -1024,46 +1026,43 @@ div#UIGroupsNavigationPortlet {
 
 /* ____________________BLOG (AGITAL TEMPLATE)____________________ */
 .blogListBox .uiContentBox {
-	margin: 0;
-	list-style: none;
-	display: block;
-    margin-top: 22px;
+    list-style: none;
+    display: block;
+    margin: 22px 0 0;
 }
 .blogListBox {
     margin: 40px;
     padding: 30px;
 }
 .blogListBox .uiContentBox > div {
-	font-size: 13px;
-	line-height: 20px;
-	margin-bottom: 49px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 49px;
 }
 .blogListBox .title {
     font-size: 30px !important;
 }
 .blogListBox .badge {
-	padding: 0;
-	margin: 0;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	width: 51px;
-	height: 43px;
-	text-align: center;
-	padding-top: 5px;
-	text-shadow: none;
+    margin: 0 16px 0 0;
+    padding: 5px 0 0;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    width: 51px;
+    height: 43px;
+    text-align: center;
+    text-shadow: none;
     background-color: #BASE_COLOR;
-	font-weight: bold;
+    font-weight: bold;
     font-size: 16px;
-	line-height: 20px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #ffffff;
-	float: left;
-	margin-right: 16px;
-	box-shadow: none;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    float: left;
+    box-shadow: none;
 }
 .blogListBox .badge {
-	margin-top: 0;
+    margin-top: 0;
 }
 .blogListBox .badge p {
     margin: 0;
@@ -1080,60 +1079,57 @@ div#UIGroupsNavigationPortlet {
     margin: 0;
 }
 .blogListBox .extra-wrap p {
-	font-weight: bold;
-	font-size: 14px;
-	font-weight: 15px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #8d8d8d;
-	float: left;
-	margin-bottom: 0;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8d8d8d;
+    float: left;
+    margin-bottom: 0;
 }
 .blogListBox  .extra-wrap h3 a {
-	color: #181818;
-	-webkit-transition: all 0.35s ease;
-	-moz-transition: all 0.35s ease;
-	-o-transition: all 0.35s ease;
-	transition: all 0.35s ease;
+    color: #181818;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
 .blogListBox  .extra-wrap h3 a:hover {
-	color: #0fcabf;
-	-webkit-transition: all 0.35s ease;
-	-moz-transition: all 0.35s ease;
-	-o-transition: all 0.35s ease;
-	transition: all 0.35s ease;
+    color: #0fcabf;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
 .blogListBox .extra-wrap .clearfix a.pull-left {
-	font-weight: bold;
-	font-size: 14px;
-	font-weight: 15px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #8d8d8d;
-	display: inline-block;
-	-webkit-transition: all 0.35s ease;
-	-moz-transition: all 0.35s ease;
-	-o-transition: all 0.35s ease;
-	transition: all 0.35s ease;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8d8d8d;
+    display: inline-block;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
 .blogListBox .extra-wrap .clearfix a.pull-right {
-	font-size: 14px;
-	font-weight: 15px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #BUTTON_COLOR;
-	display: inline-block;
-	-webkit-transition: all 0.35s ease;
-	-moz-transition: all 0.35s ease;
-	-o-transition: all 0.35s ease;
-	transition: all 0.35s ease;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BUTTON_COLOR;
+    display: inline-block;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
 .blogListBox .extra-wrap .clearfix a:hover {
-	color: #181818;
-	-webkit-transition: all 0.35s ease;
-	-moz-transition: all 0.35s ease;
-	-o-transition: all 0.35s ease;
-	transition: all 0.35s ease;
+    color: #181818;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
 .blogListBox > div .clearfix {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .blogListBox .img-polaroid {
     margin-right: 24px!important;
